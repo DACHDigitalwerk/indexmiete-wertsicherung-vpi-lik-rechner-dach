@@ -1,0 +1,14 @@
+[build-system]
+requires = ["setuptools>=61.0"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "indexmiete-dach"
+version = "1.0.0"
+description = "DACH Indexmiete- (? 557b BGB), Gewerbemiet-Wertsicherungs- (PrKG), VPI (AT) & LIK (CH) Rechner 2026"
+readme = "README.md"
+license = {text = "MIT"}
+requires-python = ">=3.10"
+
+[project.scripts]
+dach-indexmiete = "indexmiete_dach.cli:main"
